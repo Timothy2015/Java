@@ -1,18 +1,20 @@
 public class Main{
     public static void main(String[] args){
-        /* double x = 1.0 / 10;
+        double x = 1.0 / 10;
         double y = 1 - 9.0 / 10;
         //观察x和y是否相等
         System.out.println("x: " + x);
         System.out.println("y: " + y);
 
-        double r = Math.abs(x - y);
-        if (r < 0.00001){
-            System.out.println("x==y");
-        }
-        else{
-            System.out.println("x!=y");
-        } */
+        System.out.println(x==y); //false
+        // 策略：判断两个浮点数之差的绝对值是否小于一个很小的数
+        // double r = Math.abs(x - y);
+        // if (r < 0.00001){
+        //     System.out.println("x==y");
+        // }
+        // else{
+        //     System.out.println("x!=y");
+        // }
         
         //类型提升
         int n = 5;
