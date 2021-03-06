@@ -51,4 +51,4 @@ public enum Singleton2{
     public String getName(){
         return this.name;
     }
-}
+} 
