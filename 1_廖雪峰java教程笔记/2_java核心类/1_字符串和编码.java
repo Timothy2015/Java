@@ -37,9 +37,10 @@ Java中，String是一个引用类型，它本身也是一个class
          "Hello".lastIndexOf("l"); //3
          "Hello".startsWith("He"); //true
          "Hello".endsWith("lo"); //true
-         //提取子串的例子
-        //  System.out.println("Hello".substring(2)); //[2, -1],省略end，默认到末尾最后一个字符
-        //  System.out.println("Hello".substring(2, 4)); //[2, 4), [start, end)
+
+         //提取子串的例子 -- substring()
+         System.out.println("Hello".substring(2)); //[2, -1],省略end，默认到末尾最后一个字符
+         System.out.println("Hello".substring(2, 4)); //[2, 4), [start, end)
         
          // 去除字符串首尾的空白字符
          System.out.println("  \tHello\r\n".trim());
